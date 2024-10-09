@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3;
+    background-color: rgb(0, 0, 0);
+    color: black;
+    padding: 2rem;
+}
+
+.site-header {
+    background-color: rgb(77, 111, 218);
+    color: #110f0f;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.site-title {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.main-nav {
+    background-color: rgb(84, 188, 199);
+    padding: 1rem 24.6rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.article {
+    flex: 3;
+    background-color: rgb(235, 122, 92);
+    padding: 10rem;
+    margin-bottom: 20px;
+    margin-right: 2rem;
+    text-align: center;
+    padding: 40rem 0;
+}
+
+section {
+    unicode-bidi: isolate;
+    border:  11px;
+}
+
+.section {
+    flex: 1;
+    background-color: rgb(250, 208, 48);
+    padding: 14rem 16.3rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    text-align: center;
+    display: block;
+}
+
+
+.sidebar {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    margin: 1rem;
+}
+
+.site-footer {
+    background-color:rgb(77, 111, 218);
+    color: #110f0f;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
