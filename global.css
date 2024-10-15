@@ -31,6 +31,10 @@ body {
     margin-top: 2rem;
 }
 
+main {
+    width: 100%;
+}
+
 .main-content {
     display: flex;
     flex-wrap: wrap;
@@ -41,11 +45,10 @@ body {
 .article {
     flex: 3;
     background-color: rgb(235, 122, 92);
-    padding: 10rem;
     margin-bottom: 20px;
-    margin-right: 2rem;
     text-align: center;
-    padding: 40rem 0;
+    padding: 14rem 35rem;
+    width: 55%;
 }
 
 section {
@@ -54,9 +57,10 @@ section {
 }
 
 .section {
+    width: 55%;
     flex: 1;
     background-color: rgb(250, 208, 48);
-    padding: 14rem 16.3rem;
+    padding: 14rem 35rem;
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
@@ -64,14 +68,18 @@ section {
     display: block;
 }
 
+.div-main {
+    flex-direction: column;
+}
 
 .sidebar {
     flex: 1;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 10rem;
     text-align: center;
     display: flex;
     margin: 1rem;
+    width:30%;
 }
 
 .site-footer {
